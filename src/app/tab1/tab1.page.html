@@ -1,24 +1,18 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
+
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content [fullscreen]="true" class="imgtab1">
 
-  <ion-list>
 
     <div class="b1">
 
-      <ion-button routerLink="/login" expand="block">LOGIN</ion-button></div>
+      <ion-button  class = "ion-text-center" ion-button fill="outline" expand="block" color="dark" routerLink="/login">
+        LOGIN</ion-button>
+
+        <ion-button routerLink="/registro" expand="block" fill="outline" color="dark">REGISTRO</ion-button>
+
+      </div>
 
 
-      <div class="b2"><ion-button routerLink="/registro" expand="block">REGISTRO</ion-button>
-
-</div>
-
-
-</ion-list>
 </ion-content>
